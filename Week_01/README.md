@@ -18,13 +18,13 @@
     * Skip list用二叉树和链表结合使用，升维，用空间换时间，增加索引Index
     * LRU Cache Linked list, Redis Skip list
 
-            |             | ArrayList   | Linked list | SkipList |
-            | ----------- | ----------- | ----------- | -------- |
-            | Prepend     | O(1)        | O(1)        | O(1)     |
-            | Append      | O(1)        | O(1)        | O(1)     |
-            | Lookup      | O(1)        | O(n)        | O(Log(n))|
-            | Insert      | O(n)        | O(1)        | O(Log(n))|
-            | Delete      | O(n)        | O(1)        | O(Log(n))|
+|             | ArrayList   | Linked list | SkipList |
+| ----------- | ----------- | ----------- | -------- |
+| Prepend     | O(1)        | O(1)        | O(1)     |
+| Append      | O(1)        | O(1)        | O(1)     |
+| Lookup      | O(1)        | O(n)        | O(Log(n))|
+| Insert      | O(n)        | O(1)        | O(Log(n))|
+| Delete      | O(n)        | O(1)        | O(Log(n))|
 
 ## 栈Stack，队列Queue，优先队列Priority Queue，双端队列Deque Double-end Queue
 
