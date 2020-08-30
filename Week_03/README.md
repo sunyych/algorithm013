@@ -31,6 +31,7 @@ def recursion(level, param1, param2, ...):
 ```
 
 ## 分治代码模板
+
 ```python
 def divide_conquer(problem, param1, param2, **args):
     # recursion terminator
